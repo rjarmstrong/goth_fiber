@@ -1,10 +1,11 @@
-module github.com/shareed2k/goth_fiber
+module github.com/rjarmstrong/goth_fiber
 
-go 1.17
+go 1.19
 
 require (
 	github.com/gofiber/fiber/v2 v2.41.0
 	github.com/markbates/goth v1.76.0
+	github.com/shareed2k/goth_fiber v0.2.9
 )
 
 require (
@@ -28,5 +29,4 @@ require (
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
